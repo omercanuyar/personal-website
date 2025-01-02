@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omer Uyar - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="translations.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="language-switcher">
+            <button onclick="changeLanguage('en')" class="lang-btn">EN</button>
+            <button onclick="changeLanguage('tr')" class="lang-btn">TR</button>
+        </div>
+        <header>
+            <div class="profile-header">
+                <img src="profile.jpg" alt="Omer Uyar" class="profile-img">
+                <h1>Omer Uyar</h1>
+                <p class="tagline">Software Engineer | Tech Innovator</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about" data-i18n="nav.about">About</a></li>
+                    <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                    <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+                    <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" class="section">
+                <h2 data-i18n="about.title">About Me</h2>
+                <p data-i18n="about.content">
+                    I'm a passionate software engineer with a love for creating innovative technological solutions. 
+                    My expertise lies in developing robust, scalable applications that solve real-world problems.
+                </p>
+            </section>
+
+            <section id="skills" class="section">
+                <h2 data-i18n="skills.title">Skills</h2>
+                
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3 data-i18n="skills.professional.title">Professional Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span data-i18n="skills.professional.react">React.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span data-i18n="skills.professional.node">Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span data-i18n="skills.professional.javascript">JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-typescript"></i>
+                                <span data-i18n="skills.professional.typescript">TypeScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span data-i18n="skills.professional.html">HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span data-i18n="skills.professional.css">CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span data-i18n="skills.professional.git">Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span data-i18n="skills.professional.sql">SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span data-i18n="skills.professional.aws">AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span data-i18n="skills.professional.docker">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3 data-i18n="skills.personal.title">Personal Projects & Interests</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span data-i18n="skills.personal.python">Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-vuejs"></i>
+                                <span data-i18n="skills.personal.vue">Vue.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-unity"></i>
+                                <span data-i18n="skills.personal.unity">Unity</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-robot"></i>
+                                <span data-i18n="skills.personal.ai">AI/ML</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-android"></i>
+                                <span data-i18n="skills.personal.android">Android</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span data-i18n="skills.personal.react_native">React Native</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-fire"></i>
+                                <span data-i18n="skills.personal.firebase">Firebase</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-figma"></i>
+                                <span data-i18n="skills.personal.figma">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="section">
+                <h2 data-i18n="experience.title">Professional Experience</h2>
+                <div class="experience-section">
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <div class="experience-left">
+                                <div class="experience-logo">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <div class="experience-date" data-i18n="experience.roles.role1.date">2021 - Present</div>
+                            </div>
+                            <div class="experience-right">
+                                <div class="experience-header">
+                                    <div class="experience-title">
+                                        <h3 data-i18n="experience.roles.role1.title">Senior Software Engineer</h3>
+                                        <h4 data-i18n="experience.roles.role1.company">Tech Company Inc.</h4>
+                                    </div>
+                                </div>
+                                <div class="experience-description" data-i18n="experience.roles.role1.description">
+                                    Led development of cloud-native applications and microservices architecture.
+                                </div>
+                                <div class="experience-skills">
+                                    <span class="experience-skill">React</span>
+                                    <span class="experience-skill">Node.js</span>
+                                    <span class="experience-skill">AWS</span>
+                                    <span class="experience-skill">Docker</span>
+                                </div>
+                                <div class="experience-achievements">
+                                    <div class="achievement-item">
+                                        <div class="achievement-icon">
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="achievement-text" data-i18n="experience.roles.role1.achievements.0">
+                                            Implemented microservices architecture reducing deployment time by 60%
+                                        </div>
+                                    </div>
+                                    <div class="achievement-item">
+                                        <div class="achievement-icon">
+                                            <i class="fas fa-chart-line"></i>
+                                        </div>
+                                        <div class="achievement-text" data-i18n="experience.roles.role1.achievements.1">
+                                            Optimized application performance resulting in 40% faster load times
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <div class="experience-left">
+                                <div class="experience-logo">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <div class="experience-date" data-i18n="experience.roles.role2.date">2020 - 2021</div>
+                            </div>
+                            <div class="experience-right">
+                                <div class="experience-header">
+                                    <div class="experience-title">
+                                        <h3 data-i18n="experience.roles.role2.title">Software Engineer</h3>
+                                        <h4 data-i18n="experience.roles.role2.company">Previous Company</h4>
+                                    </div>
+                                </div>
+                                <div class="experience-description" data-i18n="experience.roles.role2.description">
+                                    Developed full-stack web applications and optimized database performance.
+                                </div>
+                                <div class="experience-skills">
+                                    <span class="experience-skill">React</span>
+                                    <span class="experience-skill">Node.js</span>
+                                    <span class="experience-skill">SQL</span>
+                                    <span class="experience-skill">Git</span>
+                                </div>
+                                <div class="experience-achievements">
+                                    <div class="achievement-item">
+                                        <div class="achievement-icon">
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="achievement-text" data-i18n="experience.roles.role2.achievements.0">
+                                            Implemented CI/CD pipelines reducing deployment time by 30%
+                                        </div>
+                                    </div>
+                                    <div class="achievement-item">
+                                        <div class="achievement-icon">
+                                            <i class="fas fa-chart-line"></i>
+                                        </div>
+                                        <div class="achievement-text" data-i18n="experience.roles.role2.achievements.1">
+                                            Optimized database queries resulting in 25% faster query times
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <div class="experience-left">
+                                <div class="experience-logo">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <div class="experience-date" data-i18n="experience.roles.role3.date">2018 - 2020</div>
+                            </div>
+                            <div class="experience-right">
+                                <div class="experience-header">
+                                    <div class="experience-title">
+                                        <h3 data-i18n="experience.roles.role3.title">Junior Software Developer</h3>
+                                        <h4 data-i18n="experience.roles.role3.company">Tech Solutions Inc.</h4>
+                                    </div>
+                                </div>
+                                <div class="experience-description" data-i18n="experience.roles.role3.description">
+                                    Contributed to front-end development using React.js and collaborated with UX designers.
+                                </div>
+                                <div class="experience-skills">
+                                    <span class="experience-skill">React</span>
+                                    <span class="experience-skill">JavaScript</span>
+                                    <span class="experience-skill">HTML</span>
+                                    <span class="experience-skill">CSS</span>
+                                </div>
+                                <div class="experience-achievements">
+                                    <div class="achievement-item">
+                                        <div class="achievement-icon">
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="achievement-text" data-i18n="experience.roles.role3.achievements.0">
+                                            Participated in agile development processes and assisted in code reviews
+                                        </div>
+                                    </div>
+                                    <div class="achievement-item">
+                                        <div class="achievement-icon">
+                                            <i class="fas fa-chart-line"></i>
+                                        </div>
+                                        <div class="achievement-text" data-i18n="experience.roles.role3.achievements.1">
+                                            Implemented responsive designs resulting in 20% increase in user engagement
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 data-i18n="projects.title">Projects</h2>
+                <div class="projects-grid">
+                    <a href="https://project1.example.com" class="project-card" target="_blank">
+                        <div class="project-image">
+                            <img src="https://picsum.photos/400/250" alt="Project 1">
+                            <div class="project-overlay">
+                                <span class="view-project" data-i18n="projects.viewProject">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-i18n="projects.project1.title">E-Commerce Platform</h3>
+                            <p data-i18n="projects.project1.description">A modern e-commerce platform built with React and Node.js</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://project2.example.com" class="project-card" target="_blank">
+                        <div class="project-image">
+                            <img src="https://picsum.photos/400/251" alt="Project 2">
+                            <div class="project-overlay">
+                                <span class="view-project" data-i18n="projects.viewProject">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-i18n="projects.project2.title">Task Management App</h3>
+                            <p data-i18n="projects.project2.description">Real-time task management application with collaborative features</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Tailwind</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://project3.example.com" class="project-card" target="_blank">
+                        <div class="project-image">
+                            <img src="https://picsum.photos/400/252" alt="Project 3">
+                            <div class="project-overlay">
+                                <span class="view-project" data-i18n="projects.viewProject">View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 data-i18n="projects.project3.title">AI Chat Interface</h3>
+                            <p data-i18n="projects.project3.description">Modern chat interface with AI integration and real-time responses</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">OpenAI</span>
+                                <span class="tech-tag">WebSocket</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 data-i18n="contact.title">Contact Me</h2>
+                <div class="contact-links">
+                    <a href="mailto:omer.uyar@example.com" class="contact-link">
+                        <i class="fas fa-envelope"></i> <span data-i18n="contact.email">Email</span>
+                    </a>
+                    <a href="tel:+905551234567" class="contact-link">
+                        <i class="fas fa-phone"></i> <span data-i18n="contact.phone">+90 555 123 45 67</span>
+                    </a>
+                    <a href="https://linkedin.com/in/omeruyar" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i> <span data-i18n="contact.linkedin">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/omeruyar" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i> <span data-i18n="contact.github">GitHub</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Omer Uyar. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </footer>
+    </div>
+
+    <div class="scroll-indicator" id="scrollIndicator">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
