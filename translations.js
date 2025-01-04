@@ -10,7 +10,7 @@ const translations = {
         },
         about: {
             title: "About Me",
-            content: "I'm a passionate software engineer with a love for creating innovative technological solutions. My expertise lies in developing robust, scalable applications that solve real-world problems."
+            content: "As a diligent and open-minded full-stack engineer, I am dedicated to continuous improvement and thrive on exploring advanced technologies. My passion lies in embracing diverse technologies and tackling projects across various tech stacks. With extensive experience in both front-end and back-end development, I seamlessly integrate both ends to deliver exceptional solutions. I approach each project with a mindset geared towards innovation, constantly adapting to new technologies and methodologies to uncover better solutions. This passion drives me to strive for excellence, ensuring that I deliver superior and more efficient solutions with each endeavor, ultimately pushing me to become a better engineer every day."
         },
         skills: {
             title: "Skills",
@@ -19,7 +19,7 @@ const translations = {
                 react: "React.js",
                 node: "Node.js",
                 javascript: "JavaScript",
-                typescript: "TypeScript",
+                java: "Java",
                 html: "HTML5",
                 css: "CSS3",
                 git: "Git",
@@ -44,10 +44,10 @@ const translations = {
             present: "Present",
             roles: {
                 role1: {
-                    title: "Senior Software Engineer",
-                    company: "Tech Company Inc.",
-                    date: "2021 - Present",
-                    description: "Led development of cloud-native applications and microservices architecture.",
+                    title: "Java Software Engineer",
+                    company: "Huawei Technologies",
+                    date: "April 2024 - Present",
+                    description: "As a Java Software Engineer on the DANY (Deploy Any) module within the ROMA Connect project, I developed and implemented self-deployment solutions supporting databases such as Oracle, PostgreSQL, and MySQL using Docker and Kubernetes. I focused on optimizing deployment processes, enhancing system scalability, and ensuring seamless integration across multi-cloud environments.",
                     achievements: [
                         "Implemented microservices architecture reducing deployment time by 60%",
                         "Optimized application performance resulting in 40% faster load times"
@@ -55,9 +55,9 @@ const translations = {
                 },
                 role2: {
                     title: "Software Engineer",
-                    company: "Previous Company",
-                    date: "2020 - 2021",
-                    description: "Developed full-stack web applications and optimized database performance.",
+                    company: "Globit",
+                    date: "April 2023 - January 2024",
+                    description: "I was involved in an integrated project developed for the credit risk side of banks using the Vaadin framework. Microsoft SQL Server was used on the database side, Java programming language was used on the backend, and CSS was used on the frontend.",
                     achievements: [
                         "Implemented CI/CD pipelines reducing deployment time by 30%",
                         "Optimized database queries resulting in 25% faster query times"
@@ -65,9 +65,9 @@ const translations = {
                 },
                 role3: {
                     title: "Junior Software Developer",
-                    company: "Tech Solutions Inc.",
-                    date: "2018 - 2020",
-                    description: "Contributed to front-end development using React.js and collaborated with UX designers.",
+                    company: "Merit Risk",
+                    date: "February 2022 - April 2023",
+                    description: "I was involved in developing and refactoring business risk rating models for companies and countries from inception to completion, utilizing Laravel Livewire framework with PHP and implementing the MVVM architecture.",
                     achievements: [
                         "Participated in agile development processes and assisted in code reviews",
                         "Implemented responsive designs resulting in 20% increase in user engagement"
@@ -79,22 +79,22 @@ const translations = {
             title: "Projects",
             viewProject: "View Project",
             project1: {
-                title: "E-Commerce Platform",
-                description: "A modern e-commerce platform built with React and Node.js"
+                title: "Graduation Project",
+                description: "As part of the Computer Engineering graduation project at Istanbul University-Cerrahpasa, my friend Umut Can Öztürk and I, under the guidance of Assoc. Prof. Dr. Derya Yıltaş Kaplan, conducted a study titled \"Economic Basket Mobile Application with Data Analysis Method.\""
             },
             project2: {
-                title: "Task Management App",
-                description: "Real-time task management application with collaborative features"
+                title: "BecayisApp",
+                description: "It is now very easy to exchange between Becayiş and KYK dormitories!"
             },
             project3: {
-                title: "AI Chat Interface",
-                description: "Modern chat interface with AI integration and real-time responses"
+                title: "Github Repositories",
+                description: "Check out my Github Repositories"
             }
         },
         contact: {
             title: "Contact Me",
             email: "Email",
-            phone: "+90 555 123 45 67",
+            phone: "+90 505 800 46 34",
             linkedin: "LinkedIn",
             github: "GitHub"
         },
@@ -113,7 +113,7 @@ const translations = {
         },
         about: {
             title: "Hakkımda",
-            content: "Yenilikçi teknolojik çözümler üretmeyi seven tutkulu bir yazılım mühendisiyim. Uzmanlığım, gerçek dünya problemlerini çözen sağlam ve ölçeklenebilir uygulamalar geliştirmek üzerine."
+            content: "Özenli ve açık fikirli bir full-stack mühendis olarak, Sürekli gelişime adanmış durumdayım ve ileri teknolojileri keşfetmekten büyük bir keyif alıyorum. Tutkum, çeşitli teknolojileri benimsemek ve farklı teknoloji yığınları üzerinde projeler üstlenmekte yatıyor. Hem front-end hem de back-end geliştirme konularında geniş bir deneyime sahibim ve her iki tarafı da kusursuz bir şekilde entegre ederek olağanüstü çözümler sunuyorum. Her projeye yenilikçi bir bakış açısıyla yaklaşıyor, yeni teknolojilere ve metodolojilere Sürekli olarak uyum saglıyor, daha iyi çözümler bulmaya çalışıyorum. Bu tutku, her girişimimde üstün ve daha verimli çözümler sunmamı sağlıyor ve nihayetinde her gün daha iyi bir mühendis olmam için beni motive ediyor."
         },
         skills: {
             title: "Yetenekler",
@@ -122,7 +122,7 @@ const translations = {
                 react: "React.js",
                 node: "Node.js",
                 javascript: "JavaScript",
-                typescript: "TypeScript",
+                java: "Java",
                 html: "HTML5",
                 css: "CSS3",
                 git: "Git",
@@ -147,10 +147,10 @@ const translations = {
             present: "Günümüz",
             roles: {
                 role1: {
-                    title: "Kıdemli Yazılım Mühendisi",
-                    company: "Tech Company Inc.",
-                    date: "2021 - Günümüz",
-                    description: "Cloud-native uygulamaların ve mikroservis mimarisinin geliştirilmesine liderlik ettim.",
+                    title: "Java Yazılım Mühendisi",
+                    company: "Huawei Technologies",
+                    date: "Nisan 2024 - Günümüz",
+                    description: "ROMA Connect projesi kapsamındaki DANY (Deploy Any) modülünde Java Yazılım Mühendisi olarak, Oracle, PostgreSQL ve MySQL gibi veritabanlarını destekleyen, Docker ve Kubernetes kullanarak kendi kendine dağıtım çözümleri geliştirdim ve uyguladım. Çalışmalarım, dağıtım süreçlerini optimize etmeye, sistem ölçeklenebilirliğini artırmaya ve çoklu bulut ortamlarında sorunsuz entegrasyonu sağlamaya odaklandı.",
                     achievements: [
                         "Mikroservis mimarisi ile dağıtım süresini %60 azalttım",
                         "Uygulama performansını optimize ederek yükleme sürelerini %40 hızlandırdım"
@@ -158,9 +158,9 @@ const translations = {
                 },
                 role2: {
                     title: "Yazılım Mühendisi",
-                    company: "Previous Company",
-                    date: "2020 - 2021",
-                    description: "Full-stack web uygulamaları geliştirdim ve veritabanı performansını optimize ettim.",
+                    company: "Globit",
+                    date: "Nisan 2023 - Ocak 2024",
+                    description: "Vaadin framework kullanılarak bankaların kredi risk tarafı için geliştirilen entegre bir projede yer aldım. Projede veri tabanı tarafında Microsoft SQL Server, backend tarafında Java programlama dili ve frontend tarafında CSS kullanıldı.",
                     achievements: [
                         "CI/CD süreçlerini uygulayarak dağıtım süresini %30 azalttım",
                         "Veritabanı sorgularını optimize ederek sorgu sürelerini %25 hızlandırdım"
@@ -168,9 +168,9 @@ const translations = {
                 },
                 role3: {
                     title: "Junior Yazılım Geliştirici",
-                    company: "Tech Solutions Inc.",
-                    date: "2018 - 2020",
-                    description: "React.js kullanarak ön yüz geliştirmesi yaptım ve UX tasarımcılarıyla işbirliği yaptım.",
+                    company: "Merit Risk",
+                    date: "Şubat 2022 - Nisan 2023",
+                    description: "Şirketler ve ülkeler için iş risk derecelendirme modellerinin geliştirilmesi ve yeniden düzenlenmesi süreçlerinde başlangıçtan tamamlanmaya kadar aktif rol aldım. Bu süreçte, PHP ile Laravel Livewire framework'ünü kullanarak MVVM mimarisini uyguladım.",
                     achievements: [
                         "Çevik geliştirme süreçlerine katıldım ve kod incelemelerine yardımcı oldum",
                         "Duyarlı tasarımlar uygulayarak kullanıcı etkileşimini %20 artırdım"
@@ -182,22 +182,22 @@ const translations = {
             title: "Projeler",
             viewProject: "Projeyi Görüntüle",
             project1: {
-                title: "E-Ticaret Platformu",
-                description: "React ve Node.js ile geliştirilmiş modern bir e-ticaret platformu"
+                title: "Bitirme Projesi",
+                description: "İstanbul Üniversitesi-Cerrahpaşa Bilgisayar Mühendisliği bitirme projesi kapsamında, Umut Can Öztürk ile birlikte, Doç. Dr. Derya Yıltaş Kaplan'ın danışmanlığında \"Veri Analiz Yöntemi ile Ekonomik Sepet Mobil Uygulaması\" başlıklı bir çalışma gerçekleştirdik."
             },
             project2: {
-                title: "Görev Yönetimi Uygulaması",
-                description: "İşbirliği özellikleri ile gerçek zamanlı görev yönetimi uygulaması"
+                title: "BecayisApp",
+                description: "Becayiş ile KYK yurtları arasında değişim yapmak artık çok kolay!"
             },
             project3: {
-                title: "Yapay Zeka Sohbet Arayüzü",
-                description: "Yapay zeka entegrasyonu ve gerçek zamanlı yanıtlar içeren modern sohbet arayüzü"
+                title: "Github Repositories",
+                description: "Github Repositorilerime gözatın."
             }
         },
         contact: {
             title: "İletişim",
             email: "E-posta",
-            phone: "+90 555 123 45 67",
+            phone: "+90 505 800 46 34",
             linkedin: "LinkedIn",
             github: "GitHub"
         },
